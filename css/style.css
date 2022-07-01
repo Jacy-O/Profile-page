@@ -1,0 +1,239 @@
+/* General */
+html, body {
+  margin:0px;
+  height:100%;
+	font-family: 'Poppins';
+}
+
+.profile{
+	height: 100%;
+	padding-bottom: 5%;
+	background-color: #e6e6e6
+}
+
+.profile-header, 
+.about-section,
+.education-section,
+.document-section{
+	margin: 0% 7% 5% 7%;
+	padding-bottom: 4%;
+	background-color: white;
+	border-radius: 1.5rem;
+	box-shadow: 0 0 0.6rem -0.3rem  black;
+}
+
+/* Profile header */
+.profile-header-banner img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.profile-header-userimg{
+	width: 22%;
+	display: inline-block;
+	padding-left: 5%;
+	margin-top: -10%;
+}
+
+.profile-header-userimg img{
+	max-width: 100%;
+	border-radius: 50%;
+	background-color: beige;
+}
+
+.changepic{
+	display: flex;
+	justify-content: center;
+	font-size: 70%;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10%;
+}
+
+a:link, a:visited, a:active {
+  color:	#f78552;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.profile-details{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 2%;
+}
+
+.profile-name{
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+.fname, .lname{
+	color: #2d307a;
+	font-size: 200%;
+	font-weight: bold;
+	padding-right: 1%;
+}
+
+.edit.btn{
+	background-color: #1c43e5;
+  color: white;
+	padding: 0.5% 3%;
+	font-size: 85%;
+	font-weight: bold;
+	border-radius: 5rem;
+	margin-left: 11%;
+}
+
+.profile-info2,
+.profile-info3{
+	display: inline-block;
+	width: 30%;
+	font-size: 90%;
+}
+
+.profile-info3{
+	padding-left: 10%;
+}
+
+.info{
+	display: flex;
+	padding-bottom: 3%;
+}
+
+/* About section */
+.about-details-info{
+	padding: 1% 22% 0% 5%;
+	text-align: justify;
+	font-size: 80%;
+}
+
+/* Education section*/
+.education-details-info1{
+	width: 30%;
+	display: inline-block;
+	padding: 0% 12% 0% 5%;
+}
+
+.education-details-info2{
+	width: 30%;
+	display: inline-block;
+	padding-left: 5%;	
+	vertical-align: top;
+}
+
+.flp, .stat, .expertise, .cert, 
+.degree, .sch, .math, .score, 
+.matavg, .mateng, .results{
+	display: flex;
+	font-size: 80%;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
+
+
+/* Documents section */
+.document-section{
+	background-color: #0a4c61;
+	color: white;
+}
+
+.hard{
+	color: white;
+	font-size: 160%;
+	margin-bottom: 1%;
+}
+
+.req{
+	font-size: 70%;
+	font-weight: bold;
+}
+
+.document-details{
+	padding-top: 1%;
+	padding-left: 4%;
+}
+
+.voicenote-img, .cv-img,
+.id-img, .matric-img,
+.qualification-img, .disability-img{
+	width: 15%;
+	display: inline-block;
+	font-size: 80%;
+}
+
+.voicenote-img img, .cv-img img,
+.id-img img, .matric-img img,
+.qualification-img img, .disability-img img{
+	width: 100%;
+}
+
+.func, .upload.btn, .update.btn{
+	display: flex;
+	justify-content: center;
+}
+
+.upload.btn, .update.btn{
+  color: white;
+	padding: 3%;
+	font-size: x-small;
+	font-weight: bold;
+	border-radius: 5rem;
+	margin: 10% 22% 0% 22%;
+}
+
+.upload.btn{
+	background-color: #f78552;
+}
+
+.update.btn{
+	background-color: #86c3b5;
+}
+
+
+/* About - Education -Documents*/
+.about-heading,
+.education-heading,
+.document-heading{
+	padding: 1% 22% 0% 5%;
+}
+
+h1{
+	color: #86c3b5;
+	margin-bottom: 2%;
+	font-size: 160%;
+}
+
+.edit.btn2{
+	background-color: #1c43e5;
+  color: white;
+	padding: 0.5% 2%;
+	font-size: 80%;
+	font-weight: bold;
+	border-radius: 5rem;
+	margin-left: 15%;
+}
+
+.about-details-btn, .education-details-btn{
+	display: flex;
+  justify-content: flex-end;
+  margin: -3% 5% 0% 0%;
+}
+
+
+@media screen and (max-width: 600px) 
+{
+	.education-details-info1, .education-details-info2,
+	.profile-details, .edit.btn, .profile-info2, .profile-info3, 
+	.voicenote-img, .cv-img, .id-img, .matric-img,
+	.qualification-img, .disability-img{
+    width: 100%; 
+		padding-top: 10%;
+	}
+
+	body{
+    overflow-x: hidden;
+	}
+
+}
